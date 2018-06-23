@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_seagreen">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_seagreen">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp">
+
+        <Spinner
+            android:id="@+id/currency_spinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <Spinner
+            android:id="@+id/crypto_spinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="60dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/currency_value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            android:textColor="#ffffff"
+            tools:ignore="RtlCompat"
+            android:inputType="number"
+            android:imeOptions="actionDone"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <EditText
+            android:id="@+id/crypto_value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            android:textColor="#ffffff"
+            tools:ignore="RtlCompat"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

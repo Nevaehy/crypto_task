@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency_spinner_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>BRL</item>
+        <item>AUD</item>
+    </string-array>
+</resources>
